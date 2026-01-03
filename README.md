@@ -1,8 +1,6 @@
 # JS Analyzer - Burp Suite Extension
 
-A powerful Burp Suite extension for JavaScript static analysis. Extracts API endpoints, URLs, secrets, and email addresses from JavaScript files with intelligent noise filtering.
-
-The goal is reduce noise as much as possible to ensure the accuracy
+A powerful Burp Suite extension for JavaScript static analysis. Extracts API endpoints, URLs, secrets, and email addresses from JavaScript files with intelligent noise filtering. The goal is reduce noise as much as possible to ensure the accuracy
 
 ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-Extension-orange)
 ![Python](https://img.shields.io/badge/Python-Jython%202.7-blue)
@@ -10,16 +8,16 @@ The goal is reduce noise as much as possible to ensure the accuracy
 
 ## Features
 
-- **🔍 Endpoint Detection** - Finds API paths, REST endpoints, OAuth URLs, admin routes
-- **🌐 URL Extraction** - Extracts full URLs including cloud storage (AWS S3, Azure, GCP)
-- **🔐 Secret Scanning** - Detects API keys, tokens, credentials (AWS, Stripe, GitHub, Slack, JWT, etc.)
-- **📧 Email Extraction** - Finds email addresses in JS code
-- **📄 File Detection** - Detects references to sensitive files (.sql, .csv, .bak, .env, .pdf, etc.)
-- **🧹 Smart Filtering** - Removes noise from XML namespaces, module imports, build artifacts
-- **📁 Source Tracking** - Shows which JS file each finding came from
-- **🔎 Live Search** - Filter results in real-time
-- **📋 Copy Function** - Copy individual or all findings to clipboard
-- **💾 JSON Export** - Export all findings to JSON file
+- **Endpoint Detection** - Finds API paths, REST endpoints, OAuth URLs, admin routes
+- **URL Extraction** - Extracts full URLs including cloud storage (AWS S3, Azure, GCP)
+- **Secret Scanning** - Detects API keys, tokens, credentials (AWS, Stripe, GitHub, Slack, JWT, etc.)
+- **Email Extraction** - Finds email addresses in JS code
+- **File Detection** - Detects references to sensitive files (.sql, .csv, .bak, .env, .pdf, etc.)
+- **Smart Filtering** - Removes noise from XML namespaces, module imports, build artifacts
+- **Source Tracking** - Shows which JS file each finding came from
+- **Live Search** - Filter results in real-time
+- **Copy Function** - Copy individual or all findings to clipboard
+- **JSON Export** - Export all findings to JSON file
 
 ## Installation
 
@@ -79,6 +77,8 @@ The goal is reduce noise as much as possible to ensure the accuracy
 | JWT | `eyJ...` |
 | Private Keys | `-----BEGIN PRIVATE KEY-----` |
 | Database URLs | `mongodb://`, `postgres://`, `mysql://` |
+
+#Note: Feel free to fork and add more secret detection as required. 
 
 ### Noise Filtering
 The extension automatically filters out:
@@ -171,4 +171,4 @@ Inspired by:
 
 Jenish Sojitra (https://x.com/_jensec)
 
-Created with ❤️ for the  community.
+Created with ❤️ for the InfoSec and Tech community.
