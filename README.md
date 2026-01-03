@@ -22,9 +22,9 @@ A powerful Burp Suite extension for JavaScript static analysis. Extracts API end
 ## Installation
 
 1. Download [Jython standalone JAR](https://www.jython.org/download)
-2. In Burp Suite: `Extender > Options > Python Environment`
+2. In Burp Suite: `Extensions > Extensions-Settings > Python Environment`
 3. Set the Jython JAR path
-4. `Extender > Extensions > Add`
+4. `Extensions > Installed > Add`
 5. Select `Python` and browse to `js_analyzer.py`
 
 ## Usage
